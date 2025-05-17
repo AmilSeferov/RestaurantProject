@@ -3,6 +3,9 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #444444;
+  background: linear-gradient(to right, #7F1D1D, #D97706, #1E40AF);
+
 }
+
 
