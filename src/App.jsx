@@ -18,9 +18,9 @@ function App() {
       </header>
       <main className="p-7 flex flex-wrap justify-center">
         <div className="flex flex-wrap justify-center">
-          {
-            data.map((item,index)=>(<RestaurantCart key={index} data={item} />))
-          }
+          {data.map((item, index) => (
+            <RestaurantCart key={index} data={item} />
+          ))}
         </div>
       </main>
     </div>

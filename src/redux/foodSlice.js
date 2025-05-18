@@ -1,9 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-error:false,
-Loading:false,
-data:[
+  error: false,
+  Loading: false,
+  data: [
     {
       "name": "SAHiL Bar & Restaurant",
       "imageUrl": "https://sufra.az/wp-content/uploads/2021/04/171288034_2804539306462562_3029183515148400655_n-1.jpg",
@@ -65,15 +65,15 @@ data:[
       "cuisine": "Azərbaycan mətbəxi"
     }
   ]
-  
+
 }
 
 export const foodSlice = createSlice({
-    name: 'food',
-    initialState,
-    reducers: {
+  name: 'food',
+  initialState,
+  reducers: {
 
-    },
+  },
 })
 
 export const { } = foodSlice.actions
